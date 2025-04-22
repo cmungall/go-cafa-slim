@@ -1,0 +1,17 @@
+[project]
+name = "go-cafa-slim"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Chris Mungall", email = "cjm@berkeleybop.org" }
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+go-cafa-slim = "go_cafa_slim:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
