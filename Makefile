@@ -1,7 +1,7 @@
 OBO = http://purl.obolibrary.org/obo
 
 subset/iba-%.tsv:
-	linkml-store -d amigo fq -S annotation_class -w "evidence_type: IBA" -O tsv -l 50000 -M $* > $@
+	linkml-store -d solr:https://golr.geneontology.org/solr fq -S annotation_class -w "evidence_type: IBA" -O tsv -l 50000 -M $* > $@
 
 subset/iba-slim.terms.txt: subset/iba-1.tsv
 	cut -f 2 $< > $@
