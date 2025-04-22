@@ -34,6 +34,11 @@ https://bioportal.bioontology.org/ontologies/GO-CAFA-SLIM?p=classes
    - catalytic activity
    - nucleic acid binding
 
+We can explore some of these in amigo by doing direct filters, e.g.
+ 
+<img width="1646" alt="image" src="https://github.com/user-attachments/assets/d830c59a-dfec-41c8-b87e-c3199d969192" />
+
+
 
 
 
